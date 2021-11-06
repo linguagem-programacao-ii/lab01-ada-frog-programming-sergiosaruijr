@@ -4,7 +4,7 @@ use Ada.Text_IO;
 
 procedure solucaoExemplo2 is
    P, X, Y, Dif: Integer;
-   subtype N is Integer range 1 .. 10;
+   subtype N is Integer range 1 .. 2;
 
    type MY_ARRAY is array(N) of Integer;
    array2 : MY_ARRAY := (2,2);
